@@ -1,20 +1,23 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15+Charted&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap');
+
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
 
-body{
+body {
     background-color: rgba(20, 28, 36, 1);
 }
 
-button{
+button {
     cursor: pointer;
     border: 0;
 }
 
-.header{
+.header {
     width: 100%;
     height: 810px;
     background-image: url(./img/bg-img.png);
@@ -32,31 +35,31 @@ nav {
     background-color: rgba(20, 28, 36, 1);
 }
 
-li{
+li {
     list-style-type: none;
 }
 
-a{
-    text-decoration: none; 
+a {
+    text-decoration: none;
 }
 
-nav a{
+nav a {
     color: rgba(255, 255, 255, 1);
     font-size: 16px;
     padding-bottom: 5px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     gap: 60px;
 }
 
-nav a:hover{
+nav a:hover {
     transition: all 0.5s;
     border-bottom: 1px solid rgba(0, 197, 255, 1);
 }
 
-.header-info{
+.header-info {
     width: 100%;
     height: 687px;
     display: flex;
@@ -66,15 +69,15 @@ nav a:hover{
     color: rgba(255, 255, 255, 1);
 }
 
-.header-info p{
+.header-info p {
     font-size: 16px;
 }
 
-.header-info h1{
+.header-info h1 {
     font-size: 48px;
 }
 
-.header-info button{
+.header-info button {
     width: 251px;
     height: 61px;
     font-size: 24px;
@@ -83,7 +86,7 @@ nav a:hover{
 
 /* Облачный гейминг */
 
-.install-page{
+.install-page {
     width: 100%;
     height: 517px;
     display: flex;
@@ -94,25 +97,25 @@ nav a:hover{
     margin-top: 139px;
 }
 
-.install-page-info{
+.install-page-info {
     width: 480px;
 }
 
-.p-galvni{
+.p-galvni {
     display: flex;
     align-items: center;
     color: rgba(87, 214, 255, 1);
     gap: 34px;
-    
+
 }
 
-.p-galvni span{
+.p-galvni span {
     display: block;
     width: 50px;
     border: 1px solid rgba(87, 214, 255, 1);
 }
 
-.h1-glavni{
+.h1-glavni {
     font-size: 39px;
     color: rgba(255, 255, 255, 1);
     margin-bottom: 60px;
@@ -123,7 +126,7 @@ nav a:hover{
     width: 271px;
 }
 
-.p-assisant{
+.p-assisant {
     font-size: 21.33px;
     line-height: 32px;
     color: rgba(171, 171, 171, 1);
@@ -131,7 +134,7 @@ nav a:hover{
     margin-top: 27px;
 }
 
-.a-glavni{
+.a-glavni {
     color: rgba(0, 197, 255, 1);
     text-decoration: none;
     padding-bottom: 6px;
@@ -140,7 +143,7 @@ nav a:hover{
 
 /* Быстрый старт */
 
-.start-game{
+.start-game {
     height: 393px;
     width: 100%;
     display: flex;
@@ -150,49 +153,49 @@ nav a:hover{
     margin-top: 100px;
 }
 
-.start-game .start-game-cards{
+.start-game .start-game-cards {
     width: 848px;
 }
 
-.start-game .start-game-cards .img-card{
+.start-game .start-game-cards .img-card {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
 }
 
-.start-game .start-game-cards .img-card span{
+.start-game .start-game-cards .img-card span {
     width: 73px;
     height: 0;
     border: 1px solid rgba(0, 197, 255, 1);
 }
 
-.start-game .start-game-cards .text-card{
+.start-game .start-game-cards .text-card {
     margin-top: 12px;
     display: flex;
     /* color: rgba(241, 241, 241, 1); */
 }
 
-.text-card h4:nth-child(2){
+.text-card h4:nth-child(2) {
     margin-left: 70px;
     margin-right: 80px;
 }
 
-.text-card h4:nth-child(4){
+.text-card h4:nth-child(4) {
     margin-left: 111px;
 }
 
-.start-game .start-game-cards .text-card h4{
+.start-game .start-game-cards .text-card h4 {
     font-size: 19.33px;
     font-weight: 300;
     color: rgba(241, 241, 241, 1);
 }
 
-.start-game h1{
+.start-game h1 {
     margin-bottom: 90px;
 }
 
-.start-game a{
+.start-game a {
     margin-top: 90px;
 }
 
@@ -200,7 +203,7 @@ nav a:hover{
 /* Гибкие тарифы */
 
 
-.start-follow{
+.start-follow {
     width: 100%;
     height: 840px;
     display: flex;
@@ -210,13 +213,13 @@ nav a:hover{
     margin-top: 154px;
 }
 
-.start-follow-cards{
+.start-follow-cards {
     display: flex;
     padding-top: 50px;
     gap: 10px;
 }
 
-.start-follow-cards-card{
+.start-follow-cards-card {
     width: 400px;
     height: 543px;
     background-color: rgba(31, 38, 49, 1);
@@ -224,20 +227,20 @@ nav a:hover{
     padding: 76px 70px 47px 47px;
 }
 
-.start-follow-cards-card h1{
+.start-follow-cards-card h1 {
     font-size: 37px;
     line-height: 42px;
     margin-bottom: 15px;
     color: rgba(255, 255, 255, 1);
 }
 
-.start-follow-cards-card h3{
+.start-follow-cards-card h3 {
     font-size: 24px;
     line-height: 28.13px;
     color: rgba(255, 255, 255, 1);
 }
 
-.start-follow-cards-card .p-card{
+.start-follow-cards-card .p-card {
     width: 311px;
     height: 173.76px;
     margin-top: 21.21px;
@@ -246,36 +249,36 @@ nav a:hover{
     line-height: 31.99px;
 }
 
-.start-follow-cards-card button{
+.start-follow-cards-card button {
     width: 321px;
     height: 70px;
     font-size: 24px;
 }
 
-.start-follow-cards-card:hover{
+.start-follow-cards-card:hover {
     transition: all 0.5s;
     background-color: rgba(0, 197, 255, 1);
     color: rgba(20, 28, 36, 1);
 }
 
-.start-follow-cards-card:hover h1{
+.start-follow-cards-card:hover h1 {
     color: rgba(20, 28, 36, 1);
 }
 
-.start-follow-cards-card:hover p{
+.start-follow-cards-card:hover p {
     color: rgba(20, 28, 36, 1);
 }
 
-.start-follow-cards-card:hover h3{
+.start-follow-cards-card:hover h3 {
     color: rgba(20, 28, 36, 1);
 }
 
-.start-follow-cards-card:hover button{
+.start-follow-cards-card:hover button {
     background-color: rgba(20, 28, 36, 1);
     color: rgba(241, 248, 255, 1);
 }
 
-.bottom-span{
+.bottom-span {
     width: 582px;
     height: 0;
     border: 1px solid rgba(0, 197, 255, 1);
@@ -285,7 +288,7 @@ nav a:hover{
 
 /* Играть можно в браузере */
 
-.online-play{
+.online-play {
     height: 740px;
     display: flex;
     padding-left: 137px;
@@ -293,15 +296,15 @@ nav a:hover{
     justify-content: space-between;
 }
 
-.online-play .online-play-info{
+.online-play .online-play-info {
     margin-top: 17px;
 }
 
-.online-play .p-galvni{
+.online-play .p-galvni {
     margin-bottom: 25px;
 }
 
-.online-play-info .p-assisant{
+.online-play-info .p-assisant {
     width: 470px;
     margin-top: 90px;
     margin-bottom: 60px;
@@ -309,7 +312,7 @@ nav a:hover{
 
 /* Игровые сервера на карте */
 
-.map{
+.map {
     height: 578px;
     display: flex;
     flex-direction: column;
@@ -321,7 +324,7 @@ nav a:hover{
 
 /* footer */
 
-footer{
+footer {
     width: 100%;
     height: 150px;
     background-color: rgba(23, 23, 23, 1);
@@ -331,36 +334,116 @@ footer{
     justify-content: space-between;
 }
 
-.footer-left{
+.footer-left {
     display: flex;
     gap: 30px;
     align-items: center;
 }
 
-.footer-left p:nth-child(2){
+.footer-left p:nth-child(2) {
     color: rgba(236, 236, 236, 1);
 }
 
-.footer-left p:last-child{
+.footer-left p:last-child {
     color: rgba(131, 131, 131, 1);
 }
 
-.footer-right{
+.footer-right {
     display: flex;
     gap: 51px;
 }
 
-.footer-right a{
+.footer-right a {
     font-size: 12px;
     color: rgba(255, 255, 255, 1);
 }
 
-.footer-right .icons{
+.footer-right .icons {
     display: flex;
     gap: 10px;
 }
 
 
-@media(max-width: 575px){
+@media(max-width: 660px) {
 
+    .logo {
+        width: 350px;
+        height: 50px;
+    }
+
+    .header_logo {
+        margin: 100px -15px 0px;
+        position: absolute;
+        width: 400px;
+        text-align: center;
+    }
+
+    h2 {
+        width: 250px;
+        height: 50px;
+        font-weight: 600;
+        margin: 400px 0px 0px -260px;
+    }
+
+    h1 {
+        border: 2px solid red;
+        width: 400px;
+        height: 100px;
+        margin: 30px 0px 0px -115px;
+        font-family: "Russo One", sans-serif;
+        font-weight: 400;
+        line-height: 60px;
+        font-size: 20px;
+    }
+
+    .header_button {
+        margin: 160px 0px 0px 0px;
+    }
+
+    .header_btn {
+        font-family: "Russo One", sans-serif;
+        font-weight: 400;
+        margin: -150px 0px 0px 20px;
+    }
+
+    .header {
+        border: 2px solid red;
+        width: 600px;
+        height: 900px;
+        position: relative;
+        background-image: url(./img/responsive_header_img.png);
+        border-radius: 0px 0px 20px 20px; 
+    }
+
+    li {
+        border: 2px solid red;
+        width: 100px;
+    }
+
+    .navbar_menu {
+        border: 2px solid blue;
+        display: none;
+        position: relative;
+    }
+
+    nav {
+        width: 0px;
+        height: 0px;
+    }
+
+    .navbar_link {
+        border: 2px solid red;
+        width: 50px;
+        height: 20px;
+        font-size: 14px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* ---------INSTALL_PAGE--------- */
+
+    .install-page {
+        width: 100%;
+    }
 }
