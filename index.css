@@ -126,7 +126,15 @@ nav a:hover {
     width: 271px;
 }
 
-.p-assisant {
+.p-assisant_1 {
+    font-size: 21.33px;
+    line-height: 32px;
+    color: rgba(171, 171, 171, 1);
+    margin-bottom: 27px;
+    margin-top: 27px;
+}
+
+.p-assisant_2 {
     font-size: 21.33px;
     line-height: 32px;
     color: rgba(171, 171, 171, 1);
@@ -364,7 +372,7 @@ footer {
 }
 
 
-@media(max-width: 660px) {
+@media(max-width: 576px) {
 
     .logo {
         width: 350px;
@@ -441,9 +449,34 @@ footer {
         justify-content: center;
     }
 
-    /* ---------INSTALL_PAGE--------- */
-
     .install-page {
         width: 100%;
+    }
+
+    .p-galvni {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border: 2px solid red;
+        font-weight: 200;
+        display: flex;
+        justify-content: center;
+    }
+
+    .h1-glavni {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .install-page-info {
+        border: 3px solid blue;
+        margin: -50px 0px 0px -620px;
+    }
+
+    .p-assisant_1 {
+        /* margin: 100px 0px 0px 0px; */
+        border: 2px solid red;
+    }
+
+    .p-assisant_2 {
+        margin: 200px 0px 0px 0px;
+        border: 2px solid red;
     }
 }
